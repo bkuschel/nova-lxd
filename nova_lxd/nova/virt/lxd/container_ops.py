@@ -132,6 +132,12 @@ class LXDContainerOperations(object):
         else:
             events = []
 
+        for viface in network_info:
+            container_config = self.container_config.configure_network_devices(
+                container_config, instance, viface)
+            
+        self.container_utils.container_start(instance.name, instance)
+
         try:
             with self.virtapi.wait_for_instance_event(
                     instance, events, deadline=timeout,
@@ -152,8 +158,6 @@ class LXDContainerOperations(object):
     def plug_vifs(self, container_config, instance, network_info,
                   need_vif_plugged):
         for viface in network_info:
-            container_config = self.container_config.configure_network_devices(
-                container_config, instance, viface)
             if need_vif_plugged:
                 self.vif_driver.plug(instance, viface)
         self._start_firewall(instance, network_info)

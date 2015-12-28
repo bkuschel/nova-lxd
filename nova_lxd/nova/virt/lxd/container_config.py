@@ -121,7 +121,7 @@ class LXDContainerConfig(object):
         ''' Basic container configuration. '''
         self.add_config(container_config, 'config', 'raw.lxc',
                         data='lxc.console.logfile=%s\n'
-                        % self.container_dir.get_console_path(instance.name))
+                        % self.conptainer_dir.get_console_path(instance.name))
         return container_config
 
     def configure_lxd_image(self, container_config, instance):
@@ -143,12 +143,15 @@ class LXDContainerConfig(object):
         cfg = self.vif_driver.get_config(instance,
                                          network_info)
 
+        vif_name = self.vif_driver.get_vif_devname(network_info)
+
         network_devices = self.add_config(container_config,
                                           'devices', cfg['bridge'],
                                           data={'nictype': 'bridged',
                                                 'hwaddr': cfg['mac_address'],
                                                 'parent': cfg['bridge'],
-                                                'type': 'nic'})
+                                                'type': 'nic',
+                                                'host_name': vif_name})
 
         LOG.debug(pprint.pprint(container_config))
         self.session.container_update(network_devices, instance)
@@ -218,7 +221,8 @@ class LXDContainerConfig(object):
         container_config = self.get_container_config(instance)
 
         container_network_config = self.vif_driver.get_config(instance, vif)
-
+        vif_name = self.vif_driver.get_vif_devname(vif)
+        
         container_config = self.add_config(
             container_config, 'devices',
             container_network_config['bridge'],
@@ -226,7 +230,9 @@ class LXDContainerConfig(object):
                   'nictype': 'bridged',
                   'hwaddr': vif['address'],
                   'parent': container_network_config['bridge'],
-                  'type': 'nic'})
+                  'type': 'nic',
+                  'host_name': vif_name})
+
         return container_config
 
     def configure_container_migrate(self, instance, container_ws, host):

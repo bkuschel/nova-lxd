@@ -70,9 +70,14 @@ class ContainerMixin(object):
             if not self.container_defined(instance.name, instance):
                 msg = _('Instance is not found..: %s') % instance.name
                 raise exception.InstanceNotFound(msg)
-
-            return client.container_update(instance.name,
+            (state, data) = client.container_update(instance.name,
                                            config)
+            operation = data.get('operation')
+            self.operation_wait(operation, instance)
+            status, data = self.operation_info(operation, instance)
+            data = data.get('metadata')
+            if not data['status_code'] == 200:
+                raise exception.NovaException(data['metadata'])
         except lxd_exceptions.APIError as ex:
             msg = _('Failed to communicate with LXD API %(instance)s:'
                     ' %(reason)s') % {'instance': instance.name,
