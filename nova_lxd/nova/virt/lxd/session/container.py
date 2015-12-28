@@ -70,8 +70,7 @@ class ContainerMixin(object):
             if not self.container_defined(instance.name, instance):
                 msg = _('Instance is not found..: %s') % instance.name
                 raise exception.InstanceNotFound(msg)
-            (state, data) = client.container_update(instance.name,
-                                           config)
+            (state, data) = client.container_update(instance.name, config)
             operation = data.get('operation')
             self.operation_wait(operation, instance)
             status, data = self.operation_info(operation, instance)

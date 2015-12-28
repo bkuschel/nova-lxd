@@ -72,20 +72,26 @@ class SessionContainerTest(test.NoDBTestCase):
             exception.NovaException,
             self.session.container_list)
 
-    def test_container_update(self):
+    @stubs.annotated_data(
+        ('1', (200, fake_api.fake_operation_info_ok()),
+              (200, fake_api.fake_container_state(200)))
+    )
+    def test_container_update(self, tag, opeartion_ret, container_ret):
         """
         container_update updates the LXD container configuration,
         so verify that the correct pylxd calls are made.
         """
         config = mock.Mock()
         instance = stubs._fake_instance()
-        self.ml.container_update.return_value = \
-            (200, fake_api.fake_container_config())
-        self.assertEqual((200, fake_api.fake_container_config()),
+        self.ml.container_update.return_value = opeartion_ret
+        self.ml.operation_info.return_value = container_ret
+        self.assertEqual(None,
                          self.session.container_update(config, instance))
         calls = [
             mock.call.container_defined(instance.name),
-            mock.call.container_update(instance.name, config)]
+            mock.call.container_update(instance.name, config),
+            mock.call.wait_container_operation('/1.0/operation/1234', 200, -1),
+            mock.call.operation_info('/1.0/operation/1234')]
         self.assertEqual(calls, self.ml.method_calls)
 
     @stubs.annotated_data(

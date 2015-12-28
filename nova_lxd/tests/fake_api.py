@@ -338,6 +338,8 @@ def fake_container_config():
             "hwaddr": "00:16:3e:f4:e7:1c",
             "name": "eth0",
             "nictype": "bridged",
+            "hostname": "tapvif"
+
         }
     }
 
@@ -368,6 +370,7 @@ def fake_container_info():
             "hwaddr": "00:16:3e:f4:e7:1c",
             "name": "eth0",
             "nictype": "bridged",
+            "hostname": "tapvif"
         },
         'status': {
             'status': "Running",

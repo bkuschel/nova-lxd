@@ -135,8 +135,8 @@ class LXDContainerOperations(object):
         for viface in network_info:
             container_config = self.container_config.configure_network_devices(
                 container_config, instance, viface)
-            
-        self.container_utils.container_start(instance.name, instance)
+
+        self.session.container_start(instance.name, instance)
 
         try:
             with self.virtapi.wait_for_instance_event(
@@ -147,8 +147,6 @@ class LXDContainerOperations(object):
                     need_vif_plugged)
         except exception.VirtualInterfaceCreateException:
             LOG.info(_LW('Failed to connect networking to instance'))
-
-        self.session.container_start(instance.name, instance)
 
     def reboot(self, context, instance, network_info, reboot_type,
                block_device_info=None, bad_volumes_callback=None):

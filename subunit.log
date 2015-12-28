@@ -1,0 +1,2761 @@
+time: 2015-12-28 15:07:03.267854Z
+tags: worker-7
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_defined_2_missing
+time: 2015-12-28 15:07:05.248429Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_defined_2_missing [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+4D3
+2015-12-28 10:07:03,456 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,458 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,458 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,459 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,462 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,466 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,467 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,468 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,479 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,479 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,480 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,482 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,483 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:03.257365Z
+tags: worker-2
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_destroy_fail_1_fail_to_stop
+time: 2015-12-28 15:07:05.249286Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_destroy_fail_1_fail_to_stop [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+68B
+2015-12-28 10:07:03,456 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,458 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,459 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,459 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,462 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,466 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,467 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,467 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,477 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,479 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,480 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,485 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,485 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:05,246 INFO [nova_lxd.nova.virt.lxd.session.container] Destroying instance instance-00000001 withfake_image
+2015-12-28 10:07:05,246 INFO [nova_lxd.nova.virt.lxd.session.container] Stopping instance instance-00000001 withfake_image
+2015-12-28 10:07:05,247 ERROR [nova_lxd.nova.virt.lxd.session.container] Failed to destroy container instance-00000001: Failed to communicate with LXD API instance-00000001: Error 500 - Fake.
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:03.306781Z
+tags: worker-6
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_defined_1_exists
+time: 2015-12-28 15:07:05.253313Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_defined_1_exists [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+4D3
+2015-12-28 10:07:03,455 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,458 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,459 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,459 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,462 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,469 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,470 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,471 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,479 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,480 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,480 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,484 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,485 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:03.259524Z
+tags: worker-4
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_destroy_1_exists
+time: 2015-12-28 15:07:05.251326Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_destroy_1_exists [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+6DB
+2015-12-28 10:07:03,456 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,461 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,464 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,465 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,465 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,469 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,470 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,471 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,477 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,479 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,480 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,483 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,485 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:05,246 INFO [nova_lxd.nova.virt.lxd.session.container] Destroying instance instance-00000001 withfake_image
+2015-12-28 10:07:05,246 INFO [nova_lxd.nova.virt.lxd.session.container] Stopping instance instance-00000001 withfake_image
+2015-12-28 10:07:05,247 INFO [nova_lxd.nova.virt.lxd.session.container] Successfully stopped instance instance-00000001 withfake_image
+2015-12-28 10:07:05,247 INFO [nova_lxd.nova.virt.lxd.session.container] Successfully destroyed instance instance-00000001 withfake_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:03.116853Z
+tags: worker-1
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_config_fail_1_api_fail
+time: 2015-12-28 15:07:05.248104Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_config_fail_1_api_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+4D3
+2015-12-28 10:07:03,457 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,460 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,461 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,464 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,468 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,469 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,471 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,472 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,479 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,480 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,481 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,483 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,484 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:03.441557Z
+tags: worker-3
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_config
+time: 2015-12-28 15:07:05.248054Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_config [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+4D3
+2015-12-28 10:07:03,502 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,502 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,503 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,504 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,505 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,506 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,507 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,507 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,508 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,509 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,510 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,511 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,511 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:03.078504Z
+tags: worker-0
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_destroy_2_missing
+time: 2015-12-28 15:07:05.247958Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_destroy_2_missing [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+4D3
+2015-12-28 10:07:03,455 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,457 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,458 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,459 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,462 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,468 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,469 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,470 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,478 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,480 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,481 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,483 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,485 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2015-12-28 15:07:03.278610Z
+tags: worker-5
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_info
+time: 2015-12-28 15:07:05.248028Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_info [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+4D3
+2015-12-28 10:07:03,457 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,458 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,459 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,459 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,462 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,468 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,471 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,472 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,481 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,482 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,483 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,484 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+2015-12-28 10:07:03,485 ERROR [oslo_messaging._drivers.zmq_driver.zmq_async] ZeroMQ not found!
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.248546Z
+tags: worker-5
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_list_1_empty
+time: 2015-12-28 15:07:05.259219Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_list_1_empty [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.249257Z
+tags: worker-7
+test: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_configure_container_configdrive_fail
+time: 2015-12-28 15:07:05.262326Z
+successful: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_configure_container_configdrive_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+67
+2015-12-28 10:07:05,259 INFO [nova_lxd.nova.virt.lxd.container_config] Using config drive for instance
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.249813Z
+tags: worker-2
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_info_fail
+time: 2015-12-28 15:07:05.262303Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_info_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.248649Z
+tags: worker-3
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_pause_fail_1_api_fail
+time: 2015-12-28 15:07:05.263588Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_pause_fail_1_api_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+7A
+2015-12-28 10:07:05,260 INFO [nova_lxd.nova.virt.lxd.session.container] Pausing instance instance-00000001 withfake_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.254324Z
+tags: worker-1
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_running_1_running
+time: 2015-12-28 15:07:05.271040Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_running_1_running [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:05.262766Z
+tags: worker-2
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_init_fail_1_api_fail
+time: 2015-12-28 15:07:05.276913Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_init_fail_1_api_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+7C
+2015-12-28 10:07:05,275 INFO [nova_lxd.nova.virt.lxd.session.container] Creating container instance-00000001 withfake_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.252238Z
+tags: worker-4
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_destroy_fail_2_fail_to_destroy
+time: 2015-12-28 15:07:05.276755Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_destroy_fail_2_fail_to_destroy [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+17F
+2015-12-28 10:07:05,273 INFO [nova_lxd.nova.virt.lxd.session.container] Destroying instance instance-00000001 withfake_image
+2015-12-28 10:07:05,273 INFO [nova_lxd.nova.virt.lxd.session.container] Stopping instance instance-00000001 withfake_image
+2015-12-28 10:07:05,274 INFO [nova_lxd.nova.virt.lxd.session.container] Successfully stopped instance instance-00000001 withfake_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.264525Z
+tags: worker-3
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_running_2_idle
+time: 2015-12-28 15:07:05.281357Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_running_2_idle [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.260787Z
+tags: worker-6
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_init_1_1
+time: 2015-12-28 15:07:05.282700Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_init_1_1 [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+104
+2015-12-28 10:07:05,280 INFO [nova_lxd.nova.virt.lxd.session.container] Creating container instance-00000001 withfake_image
+2015-12-28 10:07:05,280 INFO [nova_lxd.nova.virt.lxd.session.container] Successfully created container instance-00000001 withfake_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.263709Z
+tags: worker-7
+test: nova_lxd.tests.test_container_migration.LXDTestContainerMigrate.test_finish_migration
+time: 2015-12-28 15:07:05.283889Z
+successful: nova_lxd.tests.test_container_migration.LXDTestContainerMigrate.test_finish_migration [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.261095Z
+tags: worker-5
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_start_fail_1_container_missing
+time: 2015-12-28 15:07:05.284812Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_start_fail_1_container_missing [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+11D
+2015-12-28 10:07:05,275 INFO [nova_lxd.nova.virt.lxd.session.container] Starting instance instance-00000001 with fake_image
+2015-12-28 10:07:05,275 ERROR [nova_lxd.nova.virt.lxd.session.container] Failed to start container instance-00000001: Instance is not found.. instance-00000001 
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.277276Z
+tags: worker-2
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_start_1_1
+time: 2015-12-28 15:07:05.288296Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_start_1_1 [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+103
+2015-12-28 10:07:05,285 INFO [nova_lxd.nova.virt.lxd.session.container] Starting instance instance-00000001 with fake_image
+2015-12-28 10:07:05,286 INFO [nova_lxd.nova.virt.lxd.session.container] Successfully started instance instance-00000001 withfake_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.271592Z
+tags: worker-1
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_unpause_1_1
+time: 2015-12-28 15:07:05.295082Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_unpause_1_1 [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+104
+2015-12-28 10:07:05,292 INFO [nova_lxd.nova.virt.lxd.session.container] Unpausing instance instance-00000001 withfake_image
+2015-12-28 10:07:05,293 INFO [nova_lxd.nova.virt.lxd.session.container] Successfully unpaused instance instance-00000001 withfake_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:05.281841Z
+tags: worker-3
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_state_fail_1_api_fail
+time: 2015-12-28 15:07:05.301878Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_state_fail_1_api_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+91
+2015-12-28 10:07:05,300 ERROR [nova_lxd.nova.virt.lxd.session.container] Failed to communicate with LXD API instance-00000001: Error 500 - Fake.
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.285361Z
+tags: worker-5
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_stop_1_1
+time: 2015-12-28 15:07:05.300093Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_stop_1_1 [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+102
+2015-12-28 10:07:05,296 INFO [nova_lxd.nova.virt.lxd.session.container] Stopping instance instance-00000001 withfake_image
+2015-12-28 10:07:05,296 INFO [nova_lxd.nova.virt.lxd.session.container] Successfully stopped instance instance-00000001 withfake_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.288668Z
+tags: worker-2
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_state_1_running
+time: 2015-12-28 15:07:05.302323Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_state_1_running [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.283173Z
+tags: worker-6
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_list_2_valid
+time: 2015-12-28 15:07:05.303336Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_list_2_valid [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.284385Z
+tags: worker-7
+test: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_create_container_3_network_rescue
+time: 2015-12-28 15:07:05.303085Z
+successful: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_create_container_3_network_rescue [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+2
+[]0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.252241Z
+tags: worker-0
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_reboot_fail_1_api_fail
+time: 2015-12-28 15:07:05.306299Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_reboot_fail_1_api_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+7C
+2015-12-28 10:07:05,303 INFO [nova_lxd.nova.virt.lxd.session.container] Rebooting instance instance-00000001 withfake_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2015-12-28 15:07:05.280051Z
+tags: worker-4
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_list_fail
+time: 2015-12-28 15:07:05.307480Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_list_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+7F
+2015-12-28 10:07:05,305 ERROR [nova_lxd.nova.virt.lxd.session.container] Failed to communicate with LXD API: Error 500 - Fake.
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.295696Z
+tags: worker-1
+test: nova_lxd.tests.session.test_snapshot.SessionSnapshotTest.test_container_publish_1_1
+time: 2015-12-28 15:07:05.313675Z
+successful: nova_lxd.tests.session.test_snapshot.SessionSnapshotTest.test_container_publish_1_1 [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:05.303866Z
+tags: worker-6
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_running_3_api_failure
+time: 2015-12-28 15:07:05.319144Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_running_3_api_failure [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.306733Z
+tags: worker-0
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_state_2_crashed
+time: 2015-12-28 15:07:05.319349Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_state_2_crashed [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2015-12-28 15:07:05.302827Z
+tags: worker-2
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_update_1_1
+time: 2015-12-28 15:07:05.323083Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_update_1_1 [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.302997Z
+tags: worker-5
+test: nova_lxd.tests.session.test_image.SessionImageTest.test_alias_create
+time: 2015-12-28 15:07:05.324190Z
+successful: nova_lxd.tests.session.test_image.SessionImageTest.test_alias_create [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.303782Z
+tags: worker-7
+test: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_start_instance_3_neutron_timeout
+time: 2015-12-28 15:07:05.325156Z
+successful: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_start_instance_3_neutron_timeout [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+F3
+2015-12-28 10:07:05,319 INFO [nova_lxd.nova.virt.lxd.session.container] Starting instance fake-uuid with mock_image
+2015-12-28 10:07:05,320 INFO [nova_lxd.nova.virt.lxd.session.container] Successfully started instance fake-uuid withmock_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.302501Z
+tags: worker-3
+test: nova_lxd.tests.session.test_snapshot.SessionSnapshotTest.test_container_snapshot_1_1_
+time: 2015-12-28 15:07:05.324781Z
+successful: nova_lxd.tests.session.test_snapshot.SessionSnapshotTest.test_container_snapshot_1_1_ [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+10A
+2015-12-28 10:07:05,316 INFO [nova_lxd.nova.virt.lxd.session.snapshot] Snapshotting container instance-00000001 withfake_image
+2015-12-28 10:07:05,317 INFO [nova_lxd.nova.virt.lxd.session.snapshot] Successfully snapshotted container instance-00000001 withfake_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.308024Z
+tags: worker-4
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_update_fail_2_missing_container
+time: 2015-12-28 15:07:05.330539Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_update_fail_2_missing_container [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+AD
+2015-12-28 10:07:05,328 ERROR [nova_lxd.nova.virt.lxd.session.container] Error from LXD during container_updateinstance-00000001: Instance is not found..: instance-00000001
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.324023Z
+tags: worker-2
+test: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_configure_network_devices
+time: 2015-12-28 15:07:05.340596Z
+successful: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_configure_network_devices [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.326120Z
+tags: worker-3
+test: nova_lxd.tests.session.test_snapshot.SessionSnapshotTest.test_container_snapshot_fail_1_api_fail
+time: 2015-12-28 15:07:05.343184Z
+successful: nova_lxd.tests.session.test_snapshot.SessionSnapshotTest.test_container_snapshot_fail_1_api_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+C1
+2015-12-28 10:07:05,341 INFO [nova_lxd.nova.virt.lxd.session.snapshot] Snapshotting container <Mock name='mock.name' id='139901206696016'> with<Mock name='mock.image_ref' id='139901206734352'>
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.319861Z
+tags: worker-0
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_continer_reboot_1_1_
+time: 2015-12-28 15:07:05.344189Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_continer_reboot_1_1_ [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+104
+2015-12-28 10:07:05,341 INFO [nova_lxd.nova.virt.lxd.session.container] Rebooting instance instance-00000001 withfake_image
+2015-12-28 10:07:05,342 INFO [nova_lxd.nova.virt.lxd.session.container] Successfully rebooted instance instance-00000001 withfake_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2015-12-28 15:07:05.325615Z
+tags: worker-7
+test: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_start_instance_8_neutron_failed
+time: 2015-12-28 15:07:05.345221Z
+successful: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_start_instance_8_neutron_failed [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+160
+2015-12-28 10:07:05,340 INFO [nova_lxd.nova.virt.lxd.session.container] Starting instance fake-uuid with mock_image
+2015-12-28 10:07:05,341 INFO [nova_lxd.nova.virt.lxd.session.container] Successfully started instance fake-uuid withmock_image
+2015-12-28 10:07:05,343 INFO [nova_lxd.nova.virt.lxd.container_ops] Failed to connect networking to instance
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.314328Z
+tags: worker-1
+test: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_start_instance_4_neutron_unknown
+time: 2015-12-28 15:07:05.345199Z
+successful: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_start_instance_4_neutron_unknown [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+F3
+2015-12-28 10:07:05,341 INFO [nova_lxd.nova.virt.lxd.session.container] Starting instance fake-uuid with mock_image
+2015-12-28 10:07:05,341 INFO [nova_lxd.nova.virt.lxd.session.container] Successfully started instance fake-uuid withmock_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:05.325091Z
+tags: worker-5
+test: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_configure_container_config_2_both_limits
+time: 2015-12-28 15:07:05.347415Z
+successful: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_configure_container_config_2_both_limits [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.319618Z
+tags: worker-6
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_start_fail_2_api_error
+time: 2015-12-28 15:07:05.350586Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_start_fail_2_api_error [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+7C
+2015-12-28 10:07:05,334 INFO [nova_lxd.nova.virt.lxd.session.container] Starting instance instance-00000001 with fake_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.331032Z
+tags: worker-4
+test: nova_lxd.tests.session.test_event.SessionEventTest.test_container_wait
+time: 2015-12-28 15:07:05.355350Z
+successful: nova_lxd.tests.session.test_event.SessionEventTest.test_container_wait [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.345385Z
+tags: worker-3
+test: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_create_instance_initfail
+time: 2015-12-28 15:07:05.360341Z
+successful: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_create_instance_initfail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.341154Z
+tags: worker-2
+test: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_create_container_2_rescue
+time: 2015-12-28 15:07:05.364363Z
+successful: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_create_container_2_rescue [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+2
+[]0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.351077Z
+tags: worker-6
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_state_fail_2_missing
+time: 2015-12-28 15:07:05.367659Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_state_fail_2_missing [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.344728Z
+tags: worker-0
+test: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_configure_container_configdrive_fail_dir
+time: 2015-12-28 15:07:05.371852Z
+successful: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_configure_container_configdrive_fail_dir [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+108
+2015-12-28 10:07:05,365 INFO [nova_lxd.nova.virt.lxd.container_config] Using config drive for instance
+2015-12-28 10:07:05,370 ERROR [nova_lxd.nova.virt.lxd.container_config] Creating config drive failed with error: 'NoneType' object has no attribute 'setdefault'
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2015-12-28 15:07:05.345896Z
+tags: worker-1
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_init_host
+time: 2015-12-28 15:07:05.367674Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_init_host [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:05.346301Z
+tags: worker-7
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_container_power_off
+time: 2015-12-28 15:07:05.370022Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_container_power_off [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.360846Z
+tags: worker-3
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_capabilities
+time: 2015-12-28 15:07:05.374763Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_capabilities [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.355839Z
+tags: worker-4
+test: nova_lxd.tests.session.test_image.SessionImageTest.test_image_defined
+time: 2015-12-28 15:07:05.372605Z
+successful: nova_lxd.tests.session.test_image.SessionImageTest.test_image_defined [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.348518Z
+tags: worker-5
+test: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_configure_container_configdrive
+time: 2015-12-28 15:07:05.375537Z
+successful: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_configure_container_configdrive [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+67
+2015-12-28 10:07:05,367 INFO [nova_lxd.nova.virt.lxd.container_config] Using config drive for instance
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.368128Z
+tags: worker-6
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_stop_fail_1_api_fail
+time: 2015-12-28 15:07:05.383528Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_stop_fail_1_api_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+7B
+2015-12-28 10:07:05,381 INFO [nova_lxd.nova.virt.lxd.session.container] Stopping instance instance-00000001 withfake_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.365697Z
+tags: worker-2
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_firewall_calls_2_refresh_security_group_members
+time: 2015-12-28 15:07:05.379831Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_firewall_calls_2_refresh_security_group_members [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.369602Z
+tags: worker-1
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_node_is_available_2_wrong_hostname
+time: 2015-12-28 15:07:05.389895Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_node_is_available_2_wrong_hostname [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:05.372494Z
+tags: worker-0
+test: nova_lxd.tests.test_driver_api.LXDTestConfig.test_config
+time: 2015-12-28 15:07:05.379993Z
+successful: nova_lxd.tests.test_driver_api.LXDTestConfig.test_config [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2015-12-28 15:07:05.373177Z
+tags: worker-4
+test: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_configure_container_config_1_mem_limit
+time: 2015-12-28 15:07:05.393145Z
+successful: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_configure_container_config_1_mem_limit [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.380443Z
+tags: worker-0
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_firewall_calls_1_refresh_security_group_rules
+time: 2015-12-28 15:07:05.395321Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_firewall_calls_1_refresh_security_group_rules [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2015-12-28 15:07:05.384055Z
+tags: worker-6
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_unpause_fail_1_api_fail
+time: 2015-12-28 15:07:05.397365Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_unpause_fail_1_api_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+7C
+2015-12-28 10:07:05,395 INFO [nova_lxd.nova.virt.lxd.session.container] Unpausing instance instance-00000001 withfake_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.375276Z
+tags: worker-3
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_estimate_instance_overhead
+time: 2015-12-28 15:07:05.398894Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_estimate_instance_overhead [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.380466Z
+tags: worker-5
+test: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_configure_container_rescuedisk
+time: 2015-12-28 15:07:05.399210Z
+successful: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_configure_container_rescuedisk [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.383903Z
+tags: worker-2
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_firewall_calls_6_filter_defer_apply_on
+time: 2015-12-28 15:07:05.402014Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_firewall_calls_6_filter_defer_apply_on [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.390470Z
+tags: worker-1
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_16_get_instance_disk_info
+time: 2015-12-28 15:07:05.407558Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_16_get_instance_disk_info [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:05.370960Z
+tags: worker-7
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_container_power_on
+time: 2015-12-28 15:07:05.402706Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_container_power_on [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.393636Z
+tags: worker-4
+test: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_configure_container_configdrive_wrong_format
+time: 2015-12-28 15:07:05.409645Z
+successful: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_configure_container_configdrive_wrong_format [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.399394Z
+tags: worker-3
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_available_nodes
+time: 2015-12-28 15:07:05.413517Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_available_nodes [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.403022Z
+tags: worker-2
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_firewall_calls_8_unfilter_instance
+time: 2015-12-28 15:07:05.415182Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_firewall_calls_8_unfilter_instance [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.398545Z
+tags: worker-6
+test: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_update_fail_1_api_fail
+time: 2015-12-28 15:07:05.423342Z
+successful: nova_lxd.tests.session.test_container.SessionContainerTest.test_container_update_fail_1_api_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.397907Z
+tags: worker-0
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_firewall_calls_5_ensure_filtering_rules_for_instance
+time: 2015-12-28 15:07:05.423453Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_firewall_calls_5_ensure_filtering_rules_for_instance [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2015-12-28 15:07:05.408036Z
+tags: worker-1
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_18_host_power_action
+time: 2015-12-28 15:07:05.430376Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_18_host_power_action [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:05.409967Z
+tags: worker-4
+test: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_init_config
+time: 2015-12-28 15:07:05.432266Z
+successful: nova_lxd.tests.test_container_config.LXDTestContainerConfig.test_init_config [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.401550Z
+tags: worker-5
+test: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_create_container_1_network_info
+time: 2015-12-28 15:07:05.432704Z
+successful: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_create_container_1_network_info [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+2
+[]0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.424808Z
+tags: worker-0
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_console_output
+time: 2015-12-28 15:07:05.437942Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_console_output [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2015-12-28 15:07:05.417231Z
+tags: worker-2
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_host_ip_addr_2_not_found
+time: 2015-12-28 15:07:05.442544Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_host_ip_addr_2_not_found [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+86
+2015-12-28 10:07:05,440 WARNING [nova_lxd.nova.virt.lxd.host] my_ip address (1.2.3.4) was not found on any of the interfaces: 4.3.2.1
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.424282Z
+tags: worker-6
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_cleanup
+time: 2015-12-28 15:07:05.443876Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_cleanup [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.409481Z
+tags: worker-7
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_firewall_calls_4_refresh_instance_security_rules
+time: 2015-12-28 15:07:05.446054Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_firewall_calls_4_refresh_instance_security_rules [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.414044Z
+tags: worker-3
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_node_is_available_1_mock_hostname
+time: 2015-12-28 15:07:05.439414Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_node_is_available_1_mock_hostname [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.449727Z
+tags: worker-3
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_17_poll_rebooting_instances
+time: 2015-12-28 15:07:05.457533Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_17_poll_rebooting_instances [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.438387Z
+tags: worker-0
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_host_ip_addr_1_found
+time: 2015-12-28 15:07:05.458404Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_host_ip_addr_1_found [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2015-12-28 15:07:05.443524Z
+tags: worker-2
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_init_host_fail_3_ping_fail
+time: 2015-12-28 15:07:05.459677Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_init_host_fail_3_ping_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.432807Z
+tags: worker-4
+test: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_rescue_defined
+time: 2015-12-28 15:07:05.459800Z
+successful: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_rescue_defined [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.430879Z
+tags: worker-1
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_25_volume_snapshot_create
+time: 2015-12-28 15:07:05.467003Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_25_volume_snapshot_create [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:05.458262Z
+tags: worker-3
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_4_get_all_bw_counters
+time: 2015-12-28 15:07:05.466862Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_4_get_all_bw_counters [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.435511Z
+tags: worker-5
+test: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_start_instance_1_rescue
+time: 2015-12-28 15:07:05.467611Z
+successful: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_start_instance_1_rescue [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+F3
+2015-12-28 10:07:05,456 INFO [nova_lxd.nova.virt.lxd.session.container] Starting instance fake-uuid with mock_image
+2015-12-28 10:07:05,456 INFO [nova_lxd.nova.virt.lxd.session.container] Successfully started instance fake-uuid withmock_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.467490Z
+tags: worker-1
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_7_detach_volume
+time: 2015-12-28 15:07:05.484289Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_7_detach_volume [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:05.460283Z
+tags: worker-4
+test: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_start_instance_5_neutron_active
+time: 2015-12-28 15:07:05.482071Z
+successful: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_start_instance_5_neutron_active [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+F3
+2015-12-28 10:07:05,476 INFO [nova_lxd.nova.virt.lxd.session.container] Starting instance fake-uuid with mock_image
+2015-12-28 10:07:05,477 INFO [nova_lxd.nova.virt.lxd.session.container] Successfully started instance fake-uuid withmock_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.446530Z
+tags: worker-7
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_firewall_calls_7_filter_defer_apply_off
+time: 2015-12-28 15:07:05.477683Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_firewall_calls_7_filter_defer_apply_off [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.467626Z
+tags: worker-3
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_9_soft_delete
+time: 2015-12-28 15:07:05.486291Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_9_soft_delete [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.458752Z
+tags: worker-0
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_instance_exists_1_True
+time: 2015-12-28 15:07:05.477240Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_instance_exists_1_True [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2015-12-28 15:07:05.460170Z
+tags: worker-2
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_list_instances_fail
+time: 2015-12-28 15:07:05.481589Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_list_instances_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+7F
+2015-12-28 10:07:05,479 ERROR [nova_lxd.nova.virt.lxd.session.container] Failed to communicate with LXD API: Error 500 - Fake.
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.444364Z
+tags: worker-6
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_container_reboot
+time: 2015-12-28 15:07:05.477261Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_container_reboot [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.478314Z
+tags: worker-0
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_list_instances
+time: 2015-12-28 15:07:05.492314Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_list_instances [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2015-12-28 15:07:05.468052Z
+tags: worker-5
+test: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_start_instance_2_neutron
+time: 2015-12-28 15:07:05.497025Z
+successful: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_start_instance_2_neutron [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+F3
+2015-12-28 10:07:05,489 INFO [nova_lxd.nova.virt.lxd.session.container] Starting instance fake-uuid with mock_image
+2015-12-28 10:07:05,490 INFO [nova_lxd.nova.virt.lxd.session.container] Successfully started instance fake-uuid withmock_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.478212Z
+tags: worker-6
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_destroy
+time: 2015-12-28 15:07:05.497260Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_destroy [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.483072Z
+tags: worker-4
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_container_unrescue
+time: 2015-12-28 15:07:05.497764Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_container_unrescue [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.484768Z
+tags: worker-1
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_pass_2_post_live_migration
+time: 2015-12-28 15:07:05.500710Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_pass_2_post_live_migration [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:05.482678Z
+tags: worker-2
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_20_set_host_enabled
+time: 2015-12-28 15:07:05.506602Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_20_set_host_enabled [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.493193Z
+tags: worker-0
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_13_check_can_live_migrate_destination
+time: 2015-12-28 15:07:05.507873Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_13_check_can_live_migrate_destination [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2015-12-28 15:07:05.487480Z
+tags: worker-3
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_pass_4_manage_image_cache
+time: 2015-12-28 15:07:05.510507Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_pass_4_manage_image_cache [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.501155Z
+tags: worker-1
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_pass_3_check_instance_shared_storage_cleanup
+time: 2015-12-28 15:07:05.511791Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_pass_3_check_instance_shared_storage_cleanup [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:05.478858Z
+tags: worker-7
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_available_resource
+time: 2015-12-28 15:07:05.516106Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_available_resource [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.509262Z
+tags: worker-0
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_28_unquiesce
+time: 2015-12-28 15:07:05.519653Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_28_unquiesce [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2015-12-28 15:07:05.497746Z
+tags: worker-6
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_firewall_calls_3_refresh_provider_fw_rules
+time: 2015-12-28 15:07:05.521220Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_firewall_calls_3_refresh_provider_fw_rules [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.501035Z
+tags: worker-4
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_destroy_fail
+time: 2015-12-28 15:07:05.522601Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_destroy_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.498030Z
+tags: worker-5
+test: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_start_instance_6_neutron_inactive
+time: 2015-12-28 15:07:05.523784Z
+successful: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_start_instance_6_neutron_inactive [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+F3
+2015-12-28 10:07:05,519 INFO [nova_lxd.nova.virt.lxd.session.container] Starting instance fake-uuid with mock_image
+2015-12-28 10:07:05,520 INFO [nova_lxd.nova.virt.lxd.session.container] Successfully started instance fake-uuid withmock_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.512524Z
+tags: worker-1
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_return_1_deallocate_networks_on_reschedule
+time: 2015-12-28 15:07:05.523139Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_return_1_deallocate_networks_on_reschedule [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:05.507065Z
+tags: worker-2
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_23_remove_from_aggregate
+time: 2015-12-28 15:07:05.528153Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_23_remove_from_aggregate [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.510973Z
+tags: worker-3
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_return_3_get_per_instance_usage
+time: 2015-12-28 15:07:05.528910Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_return_3_get_per_instance_usage [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.520232Z
+tags: worker-0
+test: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_nonetype
+time: 2015-12-28 15:07:05.530657Z
+successful: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_nonetype [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2015-12-28 15:07:05.523626Z
+tags: worker-1
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_return_4_instance_on_disk
+time: 2015-12-28 15:07:05.539318Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_return_4_instance_on_disk [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:05.516606Z
+tags: worker-7
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_info_1_running
+time: 2015-12-28 15:07:05.541022Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_info_1_running [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.523597Z
+tags: worker-4
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_init_host_fail_2_no_ping
+time: 2015-12-28 15:07:05.541029Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_init_host_fail_2_no_ping [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.528636Z
+tags: worker-2
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_2_get_diagnostics
+time: 2015-12-28 15:07:05.545741Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_2_get_diagnostics [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.529482Z
+tags: worker-3
+test: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_plug_3_no_bridge
+time: 2015-12-28 15:07:05.548411Z
+successful: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_plug_3_no_bridge [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.521710Z
+tags: worker-6
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_host_uptime
+time: 2015-12-28 15:07:05.547236Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_host_uptime [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.531250Z
+tags: worker-0
+test: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_unplug_1_id
+time: 2015-12-28 15:07:05.551533Z
+successful: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_unplug_1_id [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2015-12-28 15:07:05.541479Z
+tags: worker-7
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_info_3_crashed
+time: 2015-12-28 15:07:05.555174Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_info_3_crashed [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.540377Z
+tags: worker-1
+test: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_plug_2_ovs_id
+time: 2015-12-28 15:07:05.560154Z
+successful: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_plug_2_ovs_id [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:05.541550Z
+tags: worker-4
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_instance_exists_2_False
+time: 2015-12-28 15:07:05.557751Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_instance_exists_2_False [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.548853Z
+tags: worker-3
+test: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_plug_4_no_v2
+time: 2015-12-28 15:07:05.565716Z
+successful: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_plug_4_no_v2 [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.551258Z
+tags: worker-6
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_init_host_new_profile
+time: 2015-12-28 15:07:05.566116Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_init_host_new_profile [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.546801Z
+tags: worker-2
+test: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_plug_5_no_bridge_or_v2
+time: 2015-12-28 15:07:05.574581Z
+successful: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_plug_5_no_bridge_or_v2 [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2015-12-28 15:07:05.524234Z
+tags: worker-5
+test: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_start_instance_7_neutron_multi
+time: 2015-12-28 15:07:05.577571Z
+successful: nova_lxd.tests.test_container_ops.LXDTestContainerOps.test_start_instance_7_neutron_multi [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+F3
+2015-12-28 10:07:05,573 INFO [nova_lxd.nova.virt.lxd.session.container] Starting instance fake-uuid with mock_image
+2015-12-28 10:07:05,574 INFO [nova_lxd.nova.virt.lxd.session.container] Successfully started instance fake-uuid withmock_image
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.566060Z
+tags: worker-3
+test: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_unplug_4_no_v2
+time: 2015-12-28 15:07:05.577973Z
+successful: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_unplug_4_no_v2 [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2015-12-28 15:07:05.555657Z
+tags: worker-7
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_info_5_no_state
+time: 2015-12-28 15:07:05.581857Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_info_5_no_state [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.561776Z
+tags: worker-1
+test: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_unplug_3_no_bridge
+time: 2015-12-28 15:07:05.582759Z
+successful: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_unplug_3_no_bridge [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-1
+time: 2015-12-28 15:07:05.566448Z
+tags: worker-6
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_spawn_defined_1_exists
+time: 2015-12-28 15:07:05.586552Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_spawn_defined_1_exists [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.578987Z
+tags: worker-5
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_info_2_shutdown
+time: 2015-12-28 15:07:05.591567Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_info_2_shutdown [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.558225Z
+tags: worker-4
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_rescue
+time: 2015-12-28 15:07:05.581847Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_rescue [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.587064Z
+tags: worker-6
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_spawn_new_2_404
+time: 2015-12-28 15:07:05.606590Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_spawn_new_2_404 [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.592603Z
+tags: worker-7
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_init_host_fail_1_profile_fail
+time: 2015-12-28 15:07:05.607625Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_init_host_fail_1_profile_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.592732Z
+tags: worker-5
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_info_4_suspend
+time: 2015-12-28 15:07:05.607904Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_get_info_4_suspend [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.593861Z
+tags: worker-4
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_10_post_live_migration_at_source
+time: 2015-12-28 15:07:05.615807Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_10_post_live_migration_at_source [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.609533Z
+tags: worker-5
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_11_check_instance_shared_storage_local
+time: 2015-12-28 15:07:05.620700Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_11_check_instance_shared_storage_local [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.608127Z
+tags: worker-7
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_spawn_defined_2_fail
+time: 2015-12-28 15:07:05.625930Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_spawn_defined_2_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.607135Z
+tags: worker-6
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_19_host_maintenance_mode
+time: 2015-12-28 15:07:05.630812Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_19_host_maintenance_mode [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.622165Z
+tags: worker-5
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_14_check_can_live_migrate_destination_cleanup
+time: 2015-12-28 15:07:05.636560Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_14_check_can_live_migrate_destination_cleanup [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.616331Z
+tags: worker-4
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_15_check_can_live_migrate_source
+time: 2015-12-28 15:07:05.639201Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_15_check_can_live_migrate_source [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.626253Z
+tags: worker-7
+test: nova_lxd.tests.test_driver_api.LXDTestDriver.test_spawn_new_1_undefined
+time: 2015-12-28 15:07:05.649264Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriver.test_spawn_new_1_undefined [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.639793Z
+tags: worker-4
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_pass_1_post_interrupted_snapshot_cleanup
+time: 2015-12-28 15:07:05.654198Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_pass_1_post_interrupted_snapshot_cleanup [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.631349Z
+tags: worker-6
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_24_undo_aggregate_operation
+time: 2015-12-28 15:07:05.656210Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_24_undo_aggregate_operation [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.654768Z
+tags: worker-4
+test: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_plug_1_id
+time: 2015-12-28 15:07:05.668690Z
+successful: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_plug_1_id [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-4
+time: 2015-12-28 15:07:05.637460Z
+tags: worker-5
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_21_block_stats
+time: 2015-12-28 15:07:05.668638Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_21_block_stats [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.649831Z
+tags: worker-7
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_12_check_instance_shared_storage_remote
+time: 2015-12-28 15:07:05.676014Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_12_check_instance_shared_storage_remote [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.656702Z
+tags: worker-6
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_27_quiesce
+time: 2015-12-28 15:07:05.683284Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_27_quiesce [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.672569Z
+tags: worker-5
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_22_add_to_aggregate
+time: 2015-12-28 15:07:05.695856Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_22_add_to_aggregate [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.683726Z
+tags: worker-6
+test: nova_lxd.tests.test_image.LXDTestContainerImage.test_fetch_image
+time: 2015-12-28 15:07:05.700318Z
+successful: nova_lxd.tests.test_image.LXDTestContainerImage.test_fetch_image [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.696662Z
+tags: worker-5
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_3_get_instance_diagnostics
+time: 2015-12-28 15:07:05.709636Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_3_get_instance_diagnostics [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.676537Z
+tags: worker-7
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_1_list_instance_uuids
+time: 2015-12-28 15:07:05.714860Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_1_list_instance_uuids [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.700895Z
+tags: worker-6
+test: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_unplug_2_ovs_id
+time: 2015-12-28 15:07:05.718479Z
+successful: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_unplug_2_ovs_id [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.710171Z
+tags: worker-5
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_8_finish_revert_migration
+time: 2015-12-28 15:07:05.726289Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_8_finish_revert_migration [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.715428Z
+tags: worker-7
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_26_volume_snapshot_delete
+time: 2015-12-28 15:07:05.735033Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_26_volume_snapshot_delete [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.726820Z
+tags: worker-5
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_return_2_macs_for_instance
+time: 2015-12-28 15:07:05.737621Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_return_2_macs_for_instance [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-5
+time: 2015-12-28 15:07:05.718834Z
+tags: worker-6
+test: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_unplug_fail
+time: 2015-12-28 15:07:05.738732Z
+successful: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_unplug_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+285
+2015-12-28 10:07:05,732 ERROR [nova_lxd.nova.virt.lxd.vif] Failed while unplugging vif
+Traceback (most recent call last):
+  File "nova_lxd/nova/virt/lxd/vif.py", line 205, in unplug_ovs_hybrid
+    if linux_net.device_exists(br_name):
+  File "/home/kuschel/git/nova-lxd/.venv/local/lib/python2.7/site-packages/mock/mock.py", line 1062, in __call__
+    return _mock_self._mock_call(*args, **kwargs)
+  File "/home/kuschel/git/nova-lxd/.venv/local/lib/python2.7/site-packages/mock/mock.py", line 1118, in _mock_call
+    raise effect
+ProcessExecutionError: Unexpected error while running command.
+Command: None
+Exit code: -
+Stdout: None
+Stderr: None
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-6
+time: 2015-12-28 15:07:05.735546Z
+tags: worker-7
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_5_get_all_volume_usage
+time: 2015-12-28 15:07:05.755721Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_5_get_all_volume_usage [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.756082Z
+tags: worker-7
+test: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_6_attach_volume
+time: 2015-12-28 15:07:05.763933Z
+successful: nova_lxd.tests.test_driver_api.LXDTestDriverNoops.test_notimplemented_6_attach_volume [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.764491Z
+tags: worker-7
+test: nova_lxd.tests.test_image.LXDTestContainerImage.test_fetch_imagei_fail
+time: 2015-12-28 15:07:05.775147Z
+successful: nova_lxd.tests.test_image.LXDTestContainerImage.test_fetch_imagei_fail [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7
+time: 2015-12-28 15:07:05.775700Z
+tags: worker-7
+test: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_unplug_5_no_bridge_or_v2
+time: 2015-12-28 15:07:05.784281Z
+successful: nova_lxd.tests.test_vif_api.LXDTestNetworkDriver.test_unplug_5_no_bridge_or_v2 [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-7

@@ -121,7 +121,7 @@ class LXDContainerConfig(object):
         ''' Basic container configuration. '''
         self.add_config(container_config, 'config', 'raw.lxc',
                         data='lxc.console.logfile=%s\n'
-                        % self.conptainer_dir.get_console_path(instance.name))
+                        % self.container_dir.get_console_path(instance.name))
         return container_config
 
     def configure_lxd_image(self, container_config, instance):
@@ -222,7 +222,7 @@ class LXDContainerConfig(object):
 
         container_network_config = self.vif_driver.get_config(instance, vif)
         vif_name = self.vif_driver.get_vif_devname(vif)
-        
+ 
         container_config = self.add_config(
             container_config, 'devices',
             container_network_config['bridge'],
