@@ -222,7 +222,7 @@ class LXDContainerConfig(object):
 
         container_network_config = self.vif_driver.get_config(instance, vif)
         vif_name = self.vif_driver.get_vif_devname(vif)
- 
+
         container_config = self.add_config(
             container_config, 'devices',
             container_network_config['bridge'],
